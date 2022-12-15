@@ -1,0 +1,248 @@
+   .menu-toggle 
+  {
+   
+    
+  //  position: absolute;
+  //  bottom: 5px;
+     
+    //  margin-left: auto;
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+ 
+  @media (min-width: 768px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
+  
+  .menu-toggle:hover,
+  .menu-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+   .icon-menu_40pxburger-menu-40{
+    width: 40px;
+    height: 40px;
+    color: #000;
+    &:hover,
+    &:focus
+    {
+
+      fill:var(--primary-text-color-theme-light);
+    }
+   }
+  
+
+   .icon-close_24pxclose-burger-menu{
+    width: 19px;
+    height: 19px;
+    color: #000;
+    &:hover,
+    &:focus
+    {
+
+      fill:var(--primary-text-color-theme-light);
+    }
+
+   }
+
+  .menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+     display: flex;
+     flex-direction: column;
+
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left:  40px;
+    // padding-bottom: 32px;
+    background-color: #fff;
+//     Effect: Drop shadow
+//  Radius: 3px
+//  Offset: 0px, 1px
+//  rgba(0, 0, 0, 0.16)
+// Effect: Drop shadow
+// Radius: 4px
+//  Offset: 0px, 2px
+// // rgba(0, 0, 0, 0.08)
+// // Effect: Drop shadow
+// Radius: 8px
+// Offset: 0px, 4px
+// rgba(0, 0, 0, 0.04) 
+
+     z-index: 999;
+  
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    @media (max-width: 319px) {
+      width: 100%; 
+   
+    }
+
+    @media (max-width: $smobile) {
+      width: 100%;
+      // display: none;
+    }
+
+  
+    
+    @media screen and (max-width:$mobile ){
+      width: 100%;
+    }
+    @media screen and (max-width:$tablet ){
+      width: 100%;
+    }
+  }
+  
+  .menu-container.is-open {
+    transform: translateX(0);
+  }
+
+  
+  .menu-container .menu-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #fff;
+  
+  }
+  // .mobile-socials,
+  // .mobile-сontacts,
+  .mobile-menu 
+  {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 32px;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: auto ; 
+  }
+  
+  .mobile-menu .link {
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+.mobile-menu-link
+{
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+  // padding-top: 48px;
+  // @media screen and (max-width:$smobile ){
+  // font-size: 36px;
+  // font-weight: 500;
+  // }
+ } 
+  .mobile-menu-link:hover,
+  .mobile-menu-link:focus
+{
+color:var(--primary-text-color-theme-light);
+} 
+
+
+.mobile-сontacts{
+  list-style: none;
+  text-decoration:none;
+    padding: 0;
+  padding-bottom: 64px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
+.mobile-сontacts-tel
+{
+  font-weight: 700;
+font-family: Roboto;
+font-size: 34px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+color:#2196F3;
+text-decoration: none;
+// @media screen and (max-width:$smobile ){
+//   font-size: 30px;
+//   font-weight: 500;
+// }
+}
+
+.mobile-сontacts-post
+{
+  font-weight: 700;
+  font-family: Roboto;
+ 
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+ 
+  color: #757575;
+  text-decoration: none;
+  // @media screen and (max-width:$smobile ){
+  //   font-size: 24px;
+  //   font-weight: 500;
+  // }
+}
+
+.mobile-socials-item
+{
+display: flex;
+
+}
+
+.mobile-socials-item:not(:last-child)
+ {
+  border-right: 1px solid rgba(33,33,33,.2);
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.mobile-socials-link 
+{
+  font-weight: 700;
+font-family: Roboto;
+font-size: 18px;
+line-height: 1.22;
+letter-spacing: 0.02em;
+
+text-decoration: none;
+ color: 
+#2196F3;
+@media screen and (max-width:$smobile ){
+  font-size: 12px;
+  font-weight: 500;
+}
+
+}
+
+.mobile-socials{
+  display: flex;
+  list-style: none;
+  text-decoration:none;
+  padding: 0;
+}
+
+
