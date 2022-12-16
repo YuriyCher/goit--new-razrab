@@ -1132,6 +1132,58 @@ button {
   }
 }
 
+.contacts-section {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 481px) {
+  .contacts-box {
+    width: 280px;
+    height: 412px;
+    border: Solid rgba(212, 20, 67, 0.1);
+    background-color: #FCFCFC;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    /* // background-color: Solid #FCFCFC; */
+    border-radius: 24px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+  }
+}
+
+.contacts-item {
+  height: 412px;
+  width: 280px;
+}
+
+.contacts-title {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #131313;
+  width: 80px;
+  height: 22px;
+  background-color: #F8D24E;
+  border-radius: 4px;
+}
+
+.box {
+  width: 80px;
+  height: 22px;
+  background-color: #F8D24E;
+  border-radius: 4px;
+}
+
 @media screen and (max-width: 280px) {
   .benefits {
     padding-top: 60px;
@@ -1369,10 +1421,6 @@ button {
   .item-team {
     width: calc((100% - 90px) / 4);
   }
-}
-
-.box {
-  border-bottom: 1px solid var(--secondary-color-border);
 }
 
 .card-bottom {

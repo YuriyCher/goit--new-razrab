@@ -1,5 +1,5 @@
-
-/* :root
+/* 
+:root
 {
     --accent-color:   #212121;
     --primary-font:Roboto,sans-serif;
@@ -16,8 +16,8 @@
     --transition-dur-and-func:250ms linear;
     --timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   }  */
-
-  /* h1,h2,h3,h4,p
+/* 
+   h1,h2,h3,h4,p
   {
       
       margin-top: 0;
@@ -58,7 +58,7 @@
       } */
 /* ============components=========== */
 
-/* 
+
 .logo
 { 
     font-family:Raleway, sans-serif;
@@ -70,23 +70,7 @@
      color: var(--accent-color);
   }
 
-
-.logo-w 
-{ font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color:var(--primary-text-color-theme-dark);}
-
-  .accent-logo
-  { font-family: Raleway, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    /* letter-spacing: 0.03em;
     color:  var(--primary-text-color-theme-light);
   }
 
@@ -124,7 +108,7 @@
 }
 
 
-      */
+      
     /* ============heder==================    */
    
    /* body
@@ -225,17 +209,54 @@ margin-right: 93px;
    }  
    
    
-  
+   
+ 
 
+.logo-w 
+{ font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color:var(--primary-text-color-theme-dark);}
+
+  .accent-logo
+  { font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 
  
 .do-it
 {
   padding-top:0;
  
-}
+} */
+
+   /* dding-right: 0px;
 
     
+    }  
+    .currentColor.filter-list.Усі
+    :hover
+    {
+      background-color:var(--secondary-background-btn-color-theme-light);
+    }
+.currentColor
+{
+color:var(--primary-text-color-theme-light);
+}
+.img-list{
+  width: 370px;
+ 
+}
+.flex-element
+{ display: block;
+  text-decoration: none;
+  width: 370px;
+   
      .do 
   {
       display: flex; 
@@ -482,11 +503,11 @@ button{
   .contakt-phone-number
    {
     color:var(--secondary-text-color-theme-light);
-  } */
+  } 
 
  /* =======footer============    */
-    
-     /* .foot-list 
+/*     
+      .foot-list 
   {
     font-style: normal;   
     font-weight: 400;
@@ -535,11 +556,11 @@ button{
 
     }
     
-    */
+    
    /* Портфоліо */
-/* 
+
    
-    .box 
+    /* .box 
    {
  
 border-bottom:1px solid var(--secondary-color-border); 
@@ -592,28 +613,7 @@ border-bottom:1px solid var(--secondary-color-border);
     align-content: center;    
     gap: 30px;
     padding-left: 0px;
-    padding-right: 0px;
-
-    
-    }  
-    .currentColor.filter-list.Усі
-    :hover
-    {
-      background-color:var(--secondary-background-btn-color-theme-light);
-    }
-.currentColor
-{
-color:var(--primary-text-color-theme-light);
-}
-.img-list{
-  width: 370px;
- 
-}
-.flex-element
-{ display: block;
-  text-decoration: none;
-  width: 370px;
-  transition: color var(--transition-dur-and-func);
+    patransition: color var(--transition-dur-and-func);
 }
 
 .flex-element:focus,
@@ -954,9 +954,9 @@ transition:background-color var(--transition-dur-and-func);
 width: 20px;
 height: 20px;
 fill: var(--primary-text-color-theme-dark);
-} 
-/* ===========  backdrop========== */
- /* .backdrop
+}   */
+/* ===========  backdrop========== */ 
+  /* .backdrop
 {
   position:fixed;
   top: 0;
@@ -1023,7 +1023,7 @@ pointer-events: none;
 } */
 /* ==============modal-form========== */
 
- /* .modal-form-title
+  /* .modal-form-title
 {
   font-weight: 700;
     font-size: 20px;
@@ -1333,4 +1333,26 @@ fill:var(--primary-text-color-theme-light);
  width:24px;
 height:24px;
 color:var(--primary-text-color-theme-dark);
-}    */
+}   
+
+
+.contacts-box {
+    
+  width: 280px;
+  height: 412px;
+  border: 1px Solid rgba(212, 20, 67, 0.1);
+  
+ 
+  background-color: #FCFCFC;
+  box-shadow: 0px 8px 30px
+  rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  
+  /* // background-color: Solid #FCFCFC; */
+  /* border-radius: 24px;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 24px;
+  padding-left:  32px;
+
+}  */ 
