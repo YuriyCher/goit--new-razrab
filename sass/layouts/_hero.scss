@@ -139,40 +139,45 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heder/imglg2x-hero.
  
 .contacts-section {
   display: flex;
-  @media screen and  (min-width: 1200px)  {  
-    
-    
-    flex-direction: row;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-     gap: 32px;
-  }
+  align-items: center;
+ 
+  background-color: 
+  rgba(132, 161, 120, 1);
+  @media screen and (min-width: 480px){
+    // display: flex;
+     
+      // align-items: center;
+      flex-direction: column;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      box-sizing:content-box;
+      gap: 16px;
+      }
+ 
    @media screen and  (min-width: 768px)  {  
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+     display: flex;
+   flex-direction: row;
+    // align-items: center;
    
     padding-top: 40px;
     padding-bottom: 40px;
      gap: 16px;
    }
-
-    @media screen and (min-width: 480px){
-  
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+   @media screen and  (min-width: 1200px)  {  
+    
+    
+    flex-direction: row;
+    // align-items: center;
     padding-top: 40px;
-    padding-bottom: 20px;
-    box-sizing:content-box;
-    gap: 16px;
-    }
+    padding-bottom: 40px;
+     gap: 32px;
+  }
+  
    }
-// .contacts-menu{
-//  max-width: 44px;
-//   max-height: 130px;
-// }
+   .cafe-set{
+    display: flex;
+
+   }
 
 ul,li{
   text-decoration: none;
@@ -182,7 +187,12 @@ ul,li{
 
 // ==================================
 .contacts-container{
-  @media screen and  (max-width: 320px)  { 
+  display: flex;
+
+  background-color: 
+  rgba(252, 252, 252, 1);
+
+  @media screen and  (min-width: 320px)  { 
     width: 280px;
     height: 412px;
     padding-top: 40px;
@@ -190,8 +200,8 @@ ul,li{
     padding-right: 32px;
     padding-left: 32px;}
 
- @media screen and  (max-width: 480px)  {  
-display: flex;
+ @media screen and  (min-width: 480px)  {  
+
 flex-direction: column;
   // width: 280px;
   // height: 412px;
@@ -206,7 +216,7 @@ border-radius: 24px;
   padding-right: 20px;
   padding-left: 20px;
  }
- @media screen and  (max-width: 768px)  {  
+ @media screen and  (min-width: 768px)  {  
   display: flex;
   flex-direction: column;
   width: 224px;
@@ -222,7 +232,7 @@ border-radius: 24px;
   padding-left: 40px;
   
  }
- @media screen and  (max-width: 1200px)  {  
+ @media screen and  (min-width: 1200px)  {  
   display: flex;
   flex-direction: column;
 
@@ -250,7 +260,7 @@ border-radius: 24px;
 // }
 
 .contacts-title{
-  @media screen and  (max-width: 480px)  {
+  @media screen and  (min-width: 480px)  {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 12px;
@@ -271,7 +281,7 @@ border-radius: 24px;
     justify-content: center;
     margin-bottom: 20px;
  }
- @media screen and  (max-width: 768px)  {
+ @media screen and  (min-width: 768px)  {
 
   font-family: Montserrat;
   font-style: normal;
@@ -291,7 +301,7 @@ border-radius: 24px;
  
   margin-bottom: 36px;
  }
- @media screen and  (max-width: 1200px)  { 
+ @media screen and  (min-width: 1200px)  { 
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -310,7 +320,7 @@ border-radius: 24px;
 }
 }
   .contacts-title-foodtruck{
-    @media screen and  (max-width: 480px)  {
+    @media screen and  (min-width: 480px)  {
       font-family: Montserrat;
       font-weight: 500;
       font-size: 12px;
@@ -351,7 +361,7 @@ border-radius: 24px;
      
       margin-bottom: 36px;
      }
-     @media screen and  (max-width: 1200px)  { 
+     @media screen and  (min-width: 1200px)  { 
       font-family: Montserrat;
       font-style: normal;
       font-weight: 500;
@@ -374,7 +384,7 @@ border-radius: 24px;
 
 
 .contacts-menu-town{
-  @media screen and  (max-width: 480px)  {
+  @media screen and  (min-width: 480px)  {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -384,7 +394,7 @@ border-radius: 24px;
   color: #131313;
   padding-bottom: 8px;
  }
- @media screen and  (max-width: 768px)  {
+ @media screen and  (min-width: 768px)  {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -412,7 +422,7 @@ border-radius: 24px;
 }
 
 .contacts-menu-adress{
-@media screen and  (max-width: 480px)  {
+@media screen and  (min-width: 480px)  {
 font-family: Montserrat;
 font-weight: 500;
 font-size: 12px;
@@ -425,7 +435,7 @@ max-width: 190px;
 
  padding-bottom: 24px;
 }
-@media screen and  (max-width: 768px)  {
+@media screen and  (min-width: 768px)  {
 font-family: Montserrat;
 font-weight: 500;
 font-size: 14px;
@@ -439,7 +449,7 @@ max-width: 173px;
  padding-bottom: 32px;
 
 }
-@media screen and  (max-width: 1200px)  {
+@media screen and  (min-width: 1200px)  {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.83;
@@ -457,21 +467,21 @@ max-width: 173px;
 
 
 .contacts-opening-hours {
-  @media screen and  (max-width: 480px)  {
+  @media screen and  (min-width: 480px)  {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.86;
   color: #ABABAB;
 }
-@media screen and  (max-width: 768px)  {
+@media screen and  (min-width: 768px)  {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.86;
   color: #907E82;
 }
-@media screen and  (max-width: 1200px)  {
+@media screen and  (min-width: 1200px)  {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 16px;
@@ -481,19 +491,19 @@ max-width: 173px;
 }
 }
 .schedule{
-  @media screen and  (max-width: 480px)  {
+  @media screen and  (min-width: 480px)  {
   // padding-bottom: 24px;
   // padding-top: 24px;
   max-width: 124px;
   max-height: 96px;
 }
-@media screen and  (max-width: 768px)  { 
+@media screen and  (min-width: 768px)  { 
   // padding-bottom: 32px;
   // padding-top: 32px;
   max-width: 144px;
   max-height: 112px;
 }
-@media screen and  (max-width: 1200px)  {
+@media screen and  (min-width: 1200px)  {
   // padding-bottom: 32px;
   // padding-top: 32px;
   max-width: 288px;
@@ -507,7 +517,7 @@ max-width: 173px;
 //   border: 1px solid #DDD;
 // }
 .contacts-schedule{
-  @media screen and  (max-width: 480px)  {
+  @media screen and  (min-width: 480px)  {
 display: flex;
  flex-direction: column;
  align-content: space-around;
@@ -515,7 +525,7 @@ display: flex;
  justify-content: space-between;
  align-items: stretch;
   } 
-  @media screen and  (max-width: 768px)  {
+  @media screen and  (min-width: 768px)  {
   display: flex;
  flex-direction: column;
  align-content: space-around;
@@ -523,7 +533,7 @@ display: flex;
  justify-content: space-between;
  align-items: stretch;
   }   
-@media screen and  (max-width: 1200px)  {
+@media screen and  (min-width: 1200px)  {
   display: flex;
  flex-direction: column;
  align-content: space-around;
@@ -537,7 +547,7 @@ display: flex;
   box-sizing: content-box}
 
 .contacts-schedule::before{
-  @media screen and  (max-width: 320px) {
+  @media screen and  (min-width: 320px) {
     display:block;
     content:"" ;
   max-width: 216px;
@@ -547,7 +557,7 @@ display: flex;
   margin-top: 24px;
 }
 
-  @media screen and  (max-width: 480px) {
+  @media screen and  (min-width: 480px) {
   display:block;
   content:"" ;
 max-width: 216px;
@@ -556,7 +566,7 @@ border: 1px solid rgba(225, 225, 225, 1);
 margin-top: 24px;
 margin-bottom: 24px;
 }
-@media screen and  (max-width: 768px) {
+@media screen and  (min-width: 768px) {
   display:block;
   content:"" ;
 max-width: 176px;
@@ -565,7 +575,7 @@ border: 1px solid rgba(225, 225, 225, 1);
  margin-bottom: 32px;
 margin-top: 32px;
 }
-@media screen and  (max-width: 1200px) {
+@media screen and  (min-width: 1200px) {
 display:block;
 content:"" ;
 max-width: 288px;
@@ -589,7 +599,7 @@ max-width: 288px;
 //   border: 1px solid rgba(225, 225, 225, 1);
 //   margin-top: 24px;
 // }
-  @media screen and  (max-width: 480px)  {
+  @media screen and  (min-width: 480px)  {
   display:block;
   content:"" ;
   max-width: 216px;
@@ -605,7 +615,7 @@ max-width: 288px;
   border: 1px solid rgba(225, 225, 225, 1);
   margin-top: 32px;
 }
-@media screen and  (max-width: 1200px) {
+@media screen and  (min-width: 1200px) {
   display:block;
   content:"" ;
   max-width: 288px;
@@ -623,7 +633,7 @@ max-width: 288px;
   line-height: 1.86; 
   color: #131313;
   } 
-  @media screen and  (max-width: 768px)  {
+  @media screen and  (min-width: 768px)  {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -631,7 +641,7 @@ max-width: 288px;
   line-height: 1.86;
   color: #131313;
   }
-  @media screen and  (max-width: 1200px)  {
+  @media screen and  (min-width: 1200px)  {
     font-family:Montserrat;
   font-weight: 500;
   font-size: 16px;
@@ -650,20 +660,20 @@ max-width: 288px;
 //   color: #ABABAB;
 // }
 .contacts-tel-post{ 
-  @media screen and  (max-width: 480px)  {
+  @media screen and  (min-width: 480px)  {
 max-width: 130px;
 max-height: 44px;
 // margin-top:  92px;
 margin-top: 24px;
   }
 
-@media screen and  (max-width: 768px)  {
+@media screen and  (min-width: 768px)  {
   ax-width: 151px;
   max-height: 46px;
   // margin-top:  116px;
   margin-top: 32px;
 }
- @media screen and  (max-width: 1200px)  {
+ @media screen and  (min-width: 1200px)  {
   max-width: 173px;
   max-height: 52px;
   // margin-top: 124px;
@@ -672,21 +682,21 @@ margin-top: 24px;
 }  
 .contacts-post,
 .contacts-tel {
-  @media screen and  (max-width: 480px)  {
+  @media screen and  (min-width: 480px)  {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.6;
   color: #131313;
 }
-@media screen and  (max-width: 768px)  {
+@media screen and  (min-width: 768px)  {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.50;
   color: #131313;
 }
-@media screen and  (max-width: 1200px)  {
+@media screen and  (min-width: 1200px)  {
 font-family: Montserrat;
 font-weight: 500;
 font-size: 16px;
